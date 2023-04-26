@@ -63,7 +63,7 @@ p {
 /* mid_container_wap */
 
 #mid_container_wap {
-	height:490px;
+	height:80vh;
 	width: 100%;
 	border-radius: 6px;
 	overflow: hidden;
@@ -301,4 +301,85 @@ a[href='#contact'] {
 }
 
   }
+
+  @media screen and (max-width: 768px) {
+.navbar{
+	position: fixed;
+	display: flex;
+	justify-content: space-between !important;
+	background-color: #569DAA;
+	width: 100%;
+    text-align: center;
+	
+}
+
+#about {
+	margin-top: -50px !important;
+	text-align: center;
+}
+
+#about p {
+	text-align: center;
+}
+
+#services {
+	overflow: scroll !important;
+}
+
+#testimonials {
+	margin-top: -25px !important;
+	overflow: scroll !important;
+}
+
+#contact {
+	margin-top: 30px !important;
+	overflow: scroll !important;
+}
+
+.custom_container{
+	margin-top: 80px;
+}
+
+  }
+
+
+  @media screen and (max-width: 995px) {
+	.navbar{
+		position: fixed;
+		display: flex;
+		justify-content: space-between !important;
+		background-color: #569DAA;
+		width: 100%;
+		text-align: center;
+		
+	}
+	
+	#about {
+		margin-top: -50px !important;
+		text-align: center;
+	}
+	
+	#about p {
+		text-align: center;
+	}
+	
+	#services {
+		overflow: scroll !important;
+	}
+	
+	#testimonials {
+		margin-top: -25px !important;
+		overflow: scroll !important;
+	}
+	
+	#contact {
+		margin-top: 30px !important;
+		overflow: scroll !important;
+	}
+	
+	.custom_container{
+		margin-top: 80px;
+	}
+	
+	  }
  
