@@ -285,7 +285,8 @@ a[href='#contact'] {
   }
 
   #about {
-    margin-top: -20px !important;
+    /* margin-top: -20px !important; */
+	/* overflow: scroll !important; */
   }
 
   .carousel-top {
@@ -302,6 +303,10 @@ a[href='#contact'] {
 
   #testimonials {
     margin-top: -25px !important;
+    overflow: scroll !important;
+  }
+
+  #blog-comments {
     overflow: scroll !important;
   }
 
